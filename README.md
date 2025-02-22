@@ -1,8 +1,8 @@
-#Fine-tuning of a CNN Model for Monument Image Classification
+# Fine-tuning of a CNN Model for Monument Image Classification
 
 This project uses Deep Learning to identify monuments through transfer learning and fine-tuning.
 
-##Workflow
+## Workflow
 1. Load a pretrained network.
 2. Remove the last layer.
 3. Freeze the backbone.
@@ -12,7 +12,7 @@ This project uses Deep Learning to identify monuments through transfer learning 
 7. Unfreeze the model and fine-tune it.
 8. Evaluate the model, modify hyperparameters if necessary and re-evaluate it.
 
-##Technologies Used
+## Technologies Used
 - Python
 - PyTorch
 - Timm
